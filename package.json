@@ -1,17 +1,24 @@
 {
-  "name": "assets",
+  "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "app to create team profile generator",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemming97/Team_Profile_Generator/.git"
+  },
+  "author": "Lindsey Martin",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4"
   },
+  "homepage": "https://github.com/Lemming97/Team_Profile_Generator/#readme",
   "devDependencies": {
     "jest": "^28.1.1"
   }
