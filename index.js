@@ -6,12 +6,12 @@ const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern'); 
 
-// node modules 
+// required node modules 
 const fs = require('fs'); 
 const inquirer = require('inquirer');
 
 // team array
-const teamArray = []; 
+const team = []; 
 
 // start of manager prompts 
 const addManager = () => {
@@ -74,17 +74,13 @@ const addManager = () => {
         const  { name, id, email, officeNumber } = managerInput; 
         const manager = new Manager (name, id, email, officeNumber);
 
-        teamArray.push(manager); 
+        team.push(manager); 
         console.log(manager); 
     })
 };
 
 const addEmployee = () => {
-    console.log(`
-    =================
-    Adding employees to the team
-    =================
-    `);
+    console.log(`Adding employees to the team`);
 
     return inquirer.prompt ([
         {
@@ -183,12 +179,12 @@ const addEmployee = () => {
             console.log(employee);
         }
 
-        teamArray.push(employee); 
+        team.push(employee); 
 
         if (confirmAddEmployee) {
-            return addEmployee(teamArray); 
+            return addEmployee(team); 
         } else {
-            return teamArray;
+            return team;
         }
     })
 
@@ -211,8 +207,8 @@ const writeFile = data => {
 
 addManager()
   .then(addEmployee)
-  .then(teamArray => {
-    return generateHTML(teamArray);
+  .then(team => {
+    return generateHTML(team);
   })
   .then(pageHTML => {
     return writeFile(pageHTML);
