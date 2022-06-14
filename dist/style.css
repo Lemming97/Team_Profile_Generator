@@ -23,11 +23,11 @@ body {
     font-size: 50px;
 }
 
-.card{
+.card {
     margin: 10px;
     width: 100%;
     height: auto;
-    border: 1px solid rgba(2,0,36,1);
+    border: 1px solid rgba(2, 0, 36, 1);
     border: solid 2px #D3D3D3;
     box-shadow: 8px 8px 6px rgba(0, 0, 0, .5);
     border-bottom-left-radius: 4px;
@@ -35,10 +35,16 @@ body {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
-.material-icons{
+
+.material-icons {
     font-size: 35px;
 }
-.id, .email,.office, .github, .school {
+
+.id,
+.email,
+.office,
+.github,
+.school {
     border: solid 2px #D3D3D3;
     padding: 5px;
     background-color: var(--secondary);
@@ -50,18 +56,18 @@ body {
     background-color: #0C5AE8;
     color: var(--secondary);
 
-    
+
 }
 
 .card-body {
     background-color: #EDEDED;
 
-   
+
 }
 
 .container {
     margin: 100px auto;
     justify-content: space-evenly;
     display: flex;
-    
+
 }
