@@ -11,7 +11,7 @@ An application that provides the user the ability to generate a webpage which di
 * [Video](#video)
 * [Screenshots](#screenshots)
 * [Usage](#usage)
-* [Tests](#tests)
+* [Testing](#testing)
 
 ## Installation 
 Clone the repository from GitHub and download Node. The user then needs to install Jest for testing, and Inquirer. 
@@ -48,9 +48,10 @@ THEN I exit the application, and the HTML is generated
 ```
 
 
-## Videos
+## Video
 
-## Installation
+
+## Screenshots
 Install node.js, inquiry, and install jest for testing.
 
 ## Usage
