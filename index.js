@@ -9,6 +9,7 @@ const Intern = require('./lib/Intern');
 // required node modules 
 const fs = require('fs'); 
 const inquirer = require('inquirer');
+const emailValidator = require('email-validator');
 
 // team array
 const team = []; 
