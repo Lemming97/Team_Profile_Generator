@@ -14,7 +14,7 @@ const inquirer = require('inquirer');
 const team = []; 
 
 // start of manager prompts 
-const addManager = () => {
+const newManager = () => {
     return inquirer.prompt ([
         {
             type: 'input',
@@ -205,7 +205,7 @@ const writeFile = data => {
     })
 }; 
 
-addManager()
+newManager()
   .then(addEmployee)
   .then(team => {
     return generateHTML(team);
