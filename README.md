@@ -49,9 +49,12 @@ THEN I exit the application, and the HTML is generated
 
 
 ## Video
+<p>To View the Video: <a href="https://drive.google.com/file/d/1DEl8AU6WrhWLji7emCzVDYb9_4J2cv4U/view?usp=sharing"> Click Here</a></p>
 
 
 ## Screenshots
+<br><img src="./Assets/screen1.png" alt="screenshot of starting page" width="350"/>
+
 
 ## Usage
 Generating Professional Team Overview Generator page.
