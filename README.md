@@ -14,7 +14,7 @@ An application that provides the user the ability to generate a webpage which di
 * [Testing](#testing)
 
 ## Installation 
-Clone the repository from GitHub and download Node. The user then needs to install Jest for testing, and Inquirer. 
+Clone the repository from GitHub and download Node. The user then needs to install Jest for testing, Email-Validator and Inquirer. 
 
  
 ## User Story
@@ -52,7 +52,6 @@ THEN I exit the application, and the HTML is generated
 
 
 ## Screenshots
-Install node.js, inquiry,email-validator and install jest for testing.
 
 ## Usage
 Generating Professional Team Overview Generator page.
