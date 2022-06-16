@@ -52,7 +52,7 @@ THEN I exit the application, and the HTML is generated
 
 
 ## Screenshots
-Install node.js, inquiry, and install jest for testing.
+Install node.js, inquiry,email-validator and install jest for testing.
 
 ## Usage
 Generating Professional Team Overview Generator page.

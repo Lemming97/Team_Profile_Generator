@@ -48,8 +48,9 @@ const newManager = () => {
             name: 'email',
             message: "Please enter the manager's email.",
             validate: email => {
-                valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
-                if (valid) {
+                // valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+                // return = emailValidator.validate("test@email.com");
+                if (emailValidator.validate(email)) {
                     return true;
                 } else {
                     console.log ('Please enter an email!')
