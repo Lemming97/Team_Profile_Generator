@@ -56,6 +56,8 @@ THEN I exit the application, and the HTML is generated
 <br><img src="./Assets/screen1.png" alt="screenshot of starting page" width="350"/>
 
 
+
+
 ## Usage
 Generating Professional Team Overview Generator page.
 
